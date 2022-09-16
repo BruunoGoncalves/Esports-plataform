@@ -1,6 +1,7 @@
+import React from 'react';
 import {View, Image} from 'react-native';
 import {styles} from './styles';
-import logoImg from 'mobile/src/assets/logo-nlw-esports.png';
+import logoImg from '../../assets/logo-nlw-esports.png';
 import { Heading } from '../../components/Heading';
 
 export function Home(){

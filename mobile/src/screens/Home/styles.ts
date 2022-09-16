@@ -11,4 +11,4 @@ export const styles = StyleSheet.create({
         marginTop: 74,
         marginBottom: 48
     }
-})
+});
