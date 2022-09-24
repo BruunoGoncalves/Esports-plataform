@@ -1,22 +1,15 @@
 {
-  "name": "esports-plataform",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node-dev --exit-child src/server.ts"
+    "dev": "tsnd --exit-child src/server.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gabrieldasneves/Esports-plataform.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gabrieldasneves/Esports-plataform/issues"
-  },
-  "homepage": "https://github.com/gabrieldasneves/Esports-plataform#readme",
   "dependencies": {
     "@prisma/client": "^4.3.1",
     "cors": "^2.8.5",

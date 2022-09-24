@@ -26,25 +26,25 @@ export function Home(){
 
     return(
         <Background>
-        <SafeAreaView style={styles.container}>
-            <Image source={logoImg}
-                    style={styles.logo}
-            />
+            <SafeAreaView style={styles.container}>
+                <Image source={logoImg}
+                        style={styles.logo}
+                />
 
-            <Heading title="Encontre o seu duo" 
-                    subtitle="Seleciona o game que deseja jogar"
-            />
+                <Heading title="Encontre o seu duo" 
+                        subtitle="Seleciona o game que deseja jogar"
+                />
 
-            <FlatList data={games} 
-                        keyExtractor={item => item.id} 
-                        renderItem={({item}) => (
-                                                    <GameCard data={item} onPress={() => handleOpenGame(item)} />
-                                                )
-                                    } 
-                        horizontal showsVerticalScrollIndicator={false}
-            />
-            
-        </SafeAreaView>
+                <FlatList data={games} 
+                            keyExtractor={item => item.id} 
+                            renderItem={({item}) => (
+                                                        <GameCard data={item} onPress={() => handleOpenGame(item)} />
+                                                    )
+                                        } 
+                            horizontal showsVerticalScrollIndicator={false}
+                />
+                
+            </SafeAreaView>
         </Background>
     );
 }
